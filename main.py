@@ -103,9 +103,9 @@ if __name__ == "__main__":
             # Defer imports until after the choice is made so the "Loaded shared image..." 
             # prints happen in correct order
             from detection import VisionAgent
-            from threesome import ContextAgent
-            from threesome import LanguageAgent
-            from threesome import CriticAgent
+            from threeagents import ContextAgent
+            from threeagents import LanguageAgent
+            from threeagents import CriticAgent
             from communication import CommunicationAgent
 
             comm = None
